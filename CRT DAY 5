@@ -20,3 +20,19 @@ int main() {
         cout <<"\n";
     }
 }
+//Problem -- 3
+//Functions with same values and same return values
+
+#include <iostream>
+using namespace std;
+
+int calculateArea(int length, int width){
+    return length * width;
+}
+
+int main() {
+    int a = 10;
+    int b = 5;
+    int area = calculateArea(a, b);
+    cout << area;
+}
