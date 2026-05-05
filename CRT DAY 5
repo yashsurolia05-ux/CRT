@@ -50,3 +50,17 @@ using namespace std;
         sendMessage("BJP wons...");
     }
 
+// Program 4.4 -- argument , return value
+
+#include <iostream>
+using namespace std;
+
+float currencyConvertor(float rupees) {
+    return rupees / 95.25;
+}
+
+int main() {
+    cout << currencyConvertor(200);
+}
+
+
