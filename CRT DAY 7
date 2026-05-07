@@ -1,0 +1,121 @@
+// Problem 1
+// coffee billing system
+
+// #include<iostream>
+// using namespace std;
+
+//     int TotalAmount(int coffee){
+//         return coffee*30;
+//     }
+
+// int main(){
+//     cout << TotalAmount(50);
+// }
+
+
+//Problem 2 
+// Store discount application
+
+// #include<iostream>
+// using namespace std;
+
+// int AfterDiscount(int amount){
+//     return amount - (amount * 0.10);
+// }
+// int main(){
+//     cout << AfterDiscount(1000);
+// }
+
+
+// Problem 3
+// Smart A/C remote
+
+// #include<iostream>
+// using namespace std;
+
+// void setTemperature(){
+//     cout << "Tempereature set to 22C" << "\n";
+// }
+
+// void setTemperature(double temp){
+//     cout << " Tempereature set to " << temp << "C" << "\n";
+// }
+
+// void setTemperature(string mode){
+//     if(mode == "ECO"){
+//     cout << " Tempereature set to 24 C" << "\n";
+// }   else if (mode == "TURBO") {
+//     cout << "Tempereature set to 18 C" << "\n";
+// }
+// }
+// int main (){
+//     setTemperature();
+//     setTemperature(23.2);
+//     setTemperature("ECO");
+// }
+
+
+// Problem 4
+// Pointers
+// Declaration, Initialixation, Arithmetic operation through Pointers
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int a = 10;
+//     int *ptr1 = &a;
+//     int b = 20;
+//     int *ptr2 = &b;
+    
+//     int c = *ptr1 + *ptr2;
+//     cout << c;
+// }
+
+
+// Problem 5
+// Swapping of two numbers using Pointers and using function
+
+// #include<iostream>
+// using namespace std;
+    
+//     void Swapp(int *a, int *b){
+//         int temp = *a;
+//         *a = *b;
+//         *b = temp;
+//     }
+// int main(){
+//     int x = 10, y = 20;
+    
+//     cout << "Before Swapping... ";
+//     cout << "X = " << x << "Y = " << y <<endl;
+    
+//         Swapp(&x, &y);
+        
+//     cout << "After Swapping... ";
+//     cout << "X = "<< x <<"Y = "<< y << endl;
+// }
+
+
+//Problem 6
+// Class and objects
+
+#include<iostream>
+using namespace std;
+
+class student{
+
+public :
+    string name;
+    int age;
+    
+    void introduce(){
+        cout << "Hi there, this is " << name <<" and his age is " << age;
+    }
+};
+
+int main(){
+    student s1;
+    s1.name = "Parag";
+    s1.age = 20;
+    s1.introduce();
+}
