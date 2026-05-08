@@ -82,7 +82,7 @@ int main() {
 //     Car c;
 //     Bike b;
 //     c.start();
-//     c.drive();
-//     b.start();
-//     b.drive();
-// }
+    c.drive();
+    b.start();
+    b.drive();
+}
